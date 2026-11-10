@@ -1,0 +1,3 @@
+com\mediconnect\MediConnectApplication.class
+com\mediconnect\config\SecurityConfig.class
+com\mediconnect\common\response\ApiError.class
