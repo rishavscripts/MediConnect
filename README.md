@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # 🏥 MediConnect
 
 ### Your Healthcare Journey, Connected.
@@ -44,10 +44,7 @@ hospital and doctor discovery, and personal medication organization.**
 -   [Contributing](#-contributing)
 -   [Disclaimer](#-healthcare-disclaimer)
 
-```{=html}
-<details>
-```
-```{=html}
+
 <summary>
 ```
 `<strong>`{=html}✨ Quick project summary --- expand`</strong>`{=html}
@@ -79,9 +76,7 @@ hospital and doctor discovery, and personal medication organization.**
                                       appointment organization
   -----------------------------------------------------------------------
 
-```{=html}
-</details>
-```
+
 ## 🌐 About the Project
 
 **MediConnect** is a healthcare assistance platform designed to bring a
@@ -123,16 +118,8 @@ provide one clear starting point for these workflows.
 
 ## 🧩 Core Modules
 
-```{=html}
-<details open>
-```
-```{=html}
-<summary>
-```
 `<strong>`{=html}1. Medication Assistance`</strong>`{=html}
-```{=html}
-</summary>
-```
+
 This module provides general medication-related information and health
 guidance based on approved reference sources or reviewed rules.
 
@@ -148,19 +135,6 @@ prescriptions. - No personalized dosage calculation or dosage changes. -
 Symptoms must not be used to guess or prescribe a medicine. - Allergy
 information and urgent-care guidance must remain visible where relevant.
 
-```{=html}
-</details>
-```
-```{=html}
-<details open>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}2. Hospital and Doctor Discovery`</strong>`{=html}
-```{=html}
-</summary>
-```
 This module helps users discover healthcare facilities and
 professionals.
 
@@ -177,19 +151,7 @@ backend. 5. Backend queries stored records and/or an approved external
 provider. 6. Backend normalizes the results. 7. Frontend displays
 results and map links where available.
 
-```{=html}
-</details>
-```
-```{=html}
-<details open>
-```
-```{=html}
-<summary>
-```
-`<strong>`{=html}3. Personal Medication Assistant`</strong>`{=html}
-```{=html}
-</summary>
-```
+
 This module helps users organize medication schedules based on an
 existing prescription or clinician instruction.
 
@@ -203,9 +165,7 @@ Organize check-up appointments.
 user. It must not calculate, invent, or silently modify a medicine dose
 or schedule.
 
-```{=html}
-</details>
-```
+
 ## 👥 User Roles
 
   -----------------------------------------------------------------------
@@ -982,16 +942,8 @@ Typical values that the application may need:
 Testing should cover the important business rules and the boundaries
 between frontend, backend, database, and external providers.
 
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
 `<strong>`{=html}Backend testing checklist`</strong>`{=html}
-```{=html}
-</summary>
-```
+
 -   [ ] Unit-test service-layer business rules.
 -   [ ] Test controller request validation and response codes.
 -   [ ] Test repository queries and entity relationships.
@@ -1003,19 +955,8 @@ between frontend, backend, database, and external providers.
 -   [ ] Test global exception handling.
 -   [ ] Test external-provider failures and timeouts.
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
 `<strong>`{=html}Frontend testing checklist`</strong>`{=html}
-```{=html}
-</summary>
-```
+
 -   [ ] Test registration and login form validation.
 -   [ ] Test protected routes and unauthenticated redirects.
 -   [ ] Test loading, empty, success, and error states.
@@ -1025,19 +966,8 @@ between frontend, backend, database, and external providers.
 -   [ ] Test responsive layouts and keyboard accessibility.
 -   [ ] Test API error handling.
 
-```{=html}
-</details>
-```
-```{=html}
-<details>
-```
-```{=html}
-<summary>
-```
 `<strong>`{=html}End-to-end acceptance checklist`</strong>`{=html}
-```{=html}
-</summary>
-```
+
 -   [ ] A visitor can access public pages.
 -   [ ] A user can register and authenticate.
 -   [ ] A user can access only their own protected records.
@@ -1050,9 +980,6 @@ between frontend, backend, database, and external providers.
 -   [ ] Duplicate reminders are prevented when reminder processing is
     implemented.
 
-```{=html}
-</details>
-```
 ## 🗺️ Development Roadmap
 
 The roadmap below represents a suggested implementation sequence. Update
@@ -1164,9 +1091,9 @@ emergency services or seek immediate professional care.
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
+
 **Built with the goal of making everyday healthcare management more
 organized and accessible.**
 
 [⬆ Back to Top](#-mediconnect)
-:::
+
