@@ -21,9 +21,9 @@
 | M-04 | PostgreSQL and Flyway setup | NOT STARTED | Local development |
 | M-05 | API health check and CORS | NOT STARTED | Frontend/backend connection |
 | M-06 | Authentication and authorization | NOT STARTED | JWT/session strategy |
-| M-07 | Patient profile | NOT STARTED | Include medical profile carefully |
+| M-07 | Patient profile | DONE | User personal profile, medical conditions, allergies, ownership validation & tests |
 | M-08 | Dashboard and navigation | NOT STARTED | Responsive |
-| M-09 | Hospital and doctor search | NOT STARTED | Provider decision needed |
+| M-09 | Hospital and doctor search | DONE | Locally stored hospitals/doctors, search, specialization filters, pagination, role-based access & tests |
 | M-10 | Medication information | NOT STARTED | Reliable source and safety review |
 | M-11 | Medication assistant | NOT STARTED | User-entered clinician instructions |
 | M-12 | Notifications | NOT STARTED | In-app first |
@@ -51,16 +51,16 @@
 - [ ] Token/session lifecycle.
 - [ ] Protected frontend routes.
 - [ ] Backend authorization.
-- [ ] Profile read/update.
-- [ ] Medical history and allergy management.
-- [ ] Ownership and authorization tests.
+- [x] Profile read/update.
+- [x] Medical history and allergy management.
+- [x] Ownership and authorization tests.
 
 ### Hospital and doctor discovery
-- [ ] Decide hospital data source.
-- [ ] Hospital search API.
-- [ ] Doctor search API.
-- [ ] Specialization filters.
-- [ ] Location input.
+- [x] Decide hospital data source.
+- [x] Hospital search API.
+- [x] Doctor search API.
+- [x] Specialization filters.
+- [x] Location input.
 - [ ] Optional location permission.
 - [ ] Results and detail UI.
 - [ ] Provider error and empty states.
